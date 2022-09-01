@@ -1,11 +1,32 @@
+/* general */
 html {
   font-size: 17px;
+}
+
+b {
+  font-weight: 700;
 }
 
 .border-5 {
   border: 5px solid;
 }
 
+.h1 {
+  font-size: 3em;
+  margin: 25px 10px;
+}
+
+.p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin: 25px 10px;
+}
+
+.italicize {
+  font-style: italic;
+}
+
+/* header */
 .header {
   height: 50px;
   padding: 0 70px;
@@ -23,4 +44,13 @@ html {
 .nav-list {
   display: flex;
   justify-content: space-between;
+  font-size: 1.5em;
+}
+
+/* About */
+.about-main {
+  width: 50%;
+  padding: 70px;
+  /* TODO: remove */
+  border-color: green;
 }
