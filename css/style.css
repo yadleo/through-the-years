@@ -1,0 +1,26 @@
+html {
+  font-size: 17px;
+}
+
+.border-5 {
+  border: 5px solid;
+}
+
+.header {
+  height: 50px;
+  padding: 0 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* TODO: remove */
+  border-color: red;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
