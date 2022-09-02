@@ -54,3 +54,69 @@ b {
   /* TODO: remove */
   border-color: green;
 }
+
+/* timeline */
+.timeline-main {
+  /* TODO: remove */
+  border-color: purple;
+}
+
+.profile-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+  /* TODO: remove */
+  border-color: yellow;
+}
+
+.year {
+  grid-column: 1 / 3;
+  text-align: center;
+  /* TODO: remove */
+  border-color: aqua;
+}
+
+.gallery {
+  grid-column: 1 / 2;
+  /* TODO: remove */
+  border-color: brown;
+}
+
+.gallery__video {
+}
+
+.gallery__images {
+}
+
+.image-preview {
+}
+
+.summary {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  /* TODO: remove */
+  border-color: palevioletred;
+}
+
+.show-title {
+  grid-column: 1 / 4;
+}
+
+.classification {
+  grid-column: 1 / 2;
+}
+.awards {
+  grid-column: 2 / 4;
+}
+.description {
+  grid-column: 1 / 4;
+}
+.instructors {
+  grid-column: 1 / 2;
+}
+.members {
+  grid-column: 2 / 4;
+}
