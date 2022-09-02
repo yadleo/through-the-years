@@ -79,17 +79,23 @@ b {
 
 .gallery {
   grid-column: 1 / 2;
+  padding: 10px 20px;
   /* TODO: remove */
   border-color: brown;
 }
 
 .gallery__video {
+  margin-bottom: 5px;
 }
 
 .gallery__images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .image-preview {
+  width: 30%;
 }
 
 .summary {
