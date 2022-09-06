@@ -76,6 +76,17 @@ i {
   font-size: 1.5em;
 }
 
+.nav-list__anchor {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-list__anchor:hover,
+.nav-list__anchor:focus {
+  text-decoration: underline;
+}
+
 /* About */
 .about-main {
   width: 50%;
@@ -131,7 +142,7 @@ i {
 .summary {
   grid-column: 2 / 3;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   gap: 2em;
   padding: 10px 20px;
@@ -144,7 +155,7 @@ i {
 }
 
 .show-title {
-  grid-column: 1 / 4;
+  grid-column: 1 / 5;
 }
 
 .classification {
@@ -152,11 +163,11 @@ i {
 }
 
 .awards {
-  grid-column: 2 / 4;
+  grid-column: 2 / 5;
 }
 
 .description {
-  grid-column: 1 / 4;
+  grid-column: 1 / 5;
   font-size: 1em;
   margin: 0;
 }
@@ -170,7 +181,7 @@ i {
 }
 
 .members {
-  grid-column: 2 / 4;
+  grid-column: 2 / 5;
 }
 
 .members-ul {
@@ -178,4 +189,5 @@ i {
   flex-direction: column;
   flex-wrap: wrap;
   line-height: 1.5em;
+  max-height: 350px;
 }
