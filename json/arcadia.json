@@ -1,0 +1,1585 @@
+{
+  "1999": {
+    "shows": [
+      {
+        "id": "1",
+        "year": 1999,
+        "classification": "A",
+        "title": "",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [],
+        "video": {
+          "videoUrl": "",
+          "thumbernailUrl": ""
+        },
+        "images": [{ "url": "", "altText": "" }]
+      }
+    ]
+  },
+  "2000": {
+    "shows": [
+      {
+        "year": 2000,
+        "classification": "A",
+        "title": "The Mummy",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": []
+      }
+    ]
+  },
+  "2001": {
+    "shows": [
+      {
+        "year": 2001,
+        "classification": "A - Open",
+        "title": "The Thirteenth Warrior",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 10th"
+          }
+        ]
+      }
+    ]
+  },
+  "2002": {
+    "shows": [
+      {
+        "year": 2002,
+        "classification": "Open",
+        "title": "Clones",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": [
+          "Kevin Sherrill",
+          "Jeff Doolittle",
+          "Tony Nunez",
+          "Vince Oliver"
+        ],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 6th"
+          }
+        ]
+      },
+      {
+        "year": 2002,
+        "classification": "A",
+        "title": "The Mask of Zorro",
+        "description": "",
+        "performers": [
+          "Ben Li",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill", "Jeff Doolittle"],
+        "accolades": [
+          {
+            "circuit": "ADLA",
+            "placement": "N/A"
+          }
+        ]
+      }
+    ]
+  },
+  "2003": {
+    "shows": [
+      {
+        "year": 2003,
+        "classification": "Open",
+        "title": "Delta",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": [
+          "Kevin Sherrill",
+          "Jeff Doolittle",
+          "Tony Nunez",
+          "Vince Oliver"
+        ],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Silver Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 5th"
+          }
+        ]
+      },
+      {
+        "year": 2003,
+        "classification": "A",
+        "title": "Mission Impossible",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "ADLA",
+            "placement": "N/A"
+          }
+        ]
+      }
+    ]
+  },
+  "2004": {
+    "shows": [
+      {
+        "year": 2004,
+        "classification": "0pen - World",
+        "title": "Boxed In",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 7th"
+          }
+        ]
+      },
+      {
+        "year": 2004,
+        "classification": "A",
+        "title": "The Mummy Returns",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Prelims 5th"
+          }
+        ]
+      }
+    ]
+  },
+  "2005": {
+    "shows": [
+      {
+        "year": 2005,
+        "classification": "World",
+        "title": "The Chameleon Effect",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Silver Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 7th"
+          }
+        ]
+      },
+      {
+        "year": 2005,
+        "classification": "A",
+        "title": "Delta",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 9th"
+          }
+        ]
+      }
+    ]
+  },
+  "2006": {
+    "shows": [
+      {
+        "year": 2006,
+        "classification": "World",
+        "title": "Sequential Circuits",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 12th"
+          }
+        ]
+      },
+      {
+        "year": 2006,
+        "classification": "A",
+        "title": "",
+        "description": "Smoke and Mirrors",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 9th"
+          }
+        ]
+      }
+    ]
+  },
+  "2007": {
+    "shows": [
+      {
+        "year": 2007,
+        "classification": "World",
+        "title": "The Fourth Estate",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 4th"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 9th"
+          }
+        ]
+      },
+      {
+        "year": 2007,
+        "classification": "A",
+        "title": "Code Red",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 5th"
+          }
+        ]
+      }
+    ]
+  },
+  "2008": {
+    "shows": [
+      {
+        "year": 2008,
+        "classification": "World",
+        "title": "Choices",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 5th"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 12th"
+          }
+        ]
+      },
+      {
+        "year": 2008,
+        "classification": "Open",
+        "title": "Path of Least Resistance",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Prelims - 6th"
+          }
+        ]
+      },
+      {
+        "year": 2008,
+        "classification": "A",
+        "title": "Exit Strategy",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 9th"
+          }
+        ]
+      }
+    ]
+  },
+  "2009": {
+    "shows": [
+      {
+        "year": 2009,
+        "classification": "World",
+        "title": "Missing You",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 4th"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 6th"
+          }
+        ]
+      },
+      {
+        "year": 2009,
+        "classification": "Open",
+        "title": "Screenagers",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 9th"
+          }
+        ]
+      },
+      {
+        "year": 2009,
+        "classification": "A",
+        "title": "Images",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 4th"
+          }
+        ]
+      }
+    ]
+  },
+  "2010": {
+    "shows": [
+      {
+        "year": 2010,
+        "classification": "World",
+        "title": "Legend",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 4th"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 7th"
+          }
+        ]
+      },
+      {
+        "year": 2010,
+        "classification": "Open",
+        "title": "Legacy",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 8th"
+          }
+        ]
+      },
+      {
+        "year": 2010,
+        "classification": "A",
+        "title": "The Thread",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 5th"
+          }
+        ]
+      }
+    ]
+  },
+  "2011": {
+    "shows": [
+      {
+        "year": 2011,
+        "classification": "World",
+        "title": "Rise",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Gold Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Gold Medal"
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "classification": "Open",
+        "title": "Black and White",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Prelims 8th"
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "classification": "A",
+        "title": "Contruction Zone",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 4th"
+          }
+        ]
+      }
+    ]
+  },
+  "2012": {
+    "shows": [
+      {
+        "year": 2012,
+        "classification": "World",
+        "title": "Brief Eternity",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 4th"
+          }
+        ]
+      },
+      {
+        "year": 2012,
+        "classification": "Open",
+        "title": "Out of the Shadow",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 11th"
+          }
+        ]
+      },
+      {
+        "year": 2012,
+        "classification": "A",
+        "title": "Ten Suns",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 6th"
+          }
+        ]
+      }
+    ]
+  },
+  "2013": {
+    "shows": [
+      {
+        "year": 2013,
+        "classification": "World",
+        "title": "Minus One",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 5th"
+          }
+        ]
+      },
+      {
+        "year": 2013,
+        "classification": "Open",
+        "title": "Weightless",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Gold Medal"
+          }
+        ]
+      },
+      {
+        "year": 2013,
+        "classification": "A",
+        "title": "The Beginning",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Prelims - 4th"
+          }
+        ]
+      }
+    ]
+  },
+  "2014": {
+    "shows": [
+      {
+        "year": 2014,
+        "classification": "World",
+        "title": "Find My Way",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 6th"
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "classification": "Open",
+        "title": "On the Horizon",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Silver Medal"
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "classification": "A",
+        "title": "Sing To Me",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          }
+        ]
+      }
+    ]
+  },
+  "2015": {
+    "shows": [
+      {
+        "year": 2015,
+        "classification": "World",
+        "title": "Process of Invention",
+        "description": "",
+        "performers": [
+          "Aaron Ho",
+          "AJ Ocampo",
+          "Allison Kuo",
+          "Andrew Yen",
+          "Annie Chen",
+          "Arron Duran",
+          "Brandon Carone",
+          "Chalisar Vasnanrungruengkul",
+          "Chris Valladares",
+          "Chris Zaki",
+          "Eric Ly",
+          "Garrett Foster",
+          "Greg Van Kirk",
+          "Isabell Liao",
+          "Ishaan Dev",
+          "Jessica Repko",
+          "Josephine Yip",
+          "Kenneth Sanhueza",
+          "Kristie Lau",
+          "Lizbeth Walla",
+          "Madeline Ganley",
+          "Mark Salvacion",
+          "Melody Hsueh",
+          "Nick Sosa",
+          "Paul Mekailian",
+          "Richard Kith",
+          "Sean Carrington",
+          "Shirley Duong",
+          "Tiffany Lau",
+          "Tyler Long",
+          "Wes Pickering",
+          "Yuma Kikuta"
+        ],
+        "staffs": [
+          "Kevin Sherrill",
+          "Tony Nunez",
+          "Kevin Shah",
+          "Jesus Alcantar",
+          "Philip Idell",
+          "Vanessa Vendiola",
+          "Nick Arce",
+          "James Catherall"
+        ],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 5th"
+          }
+        ]
+      },
+      {
+        "year": 2015,
+        "classification": "Open",
+        "title": "Full Circle",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Silver Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 4th"
+          }
+        ]
+      },
+      {
+        "year": 2015,
+        "classification": "A",
+        "title": "Peer Gynt",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Prelims 5th"
+          }
+        ]
+      }
+    ]
+  },
+  "2016": {
+    "shows": [
+      {
+        "year": 2016,
+        "classification": "World",
+        "title": "The Dream",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Bronze Medal"
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "classification": "Open",
+        "title": "Go the Distance",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 4th"
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "classification": "A",
+        "title": "Tribe",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Prelims 6th"
+          }
+        ]
+      }
+    ]
+  },
+  "2017": {
+    "shows": [
+      {
+        "year": 2017,
+        "classification": "World",
+        "title": "Kindred",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Silver Medal"
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "classification": "Open",
+        "title": "Wind Upon the Mountains",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 6th"
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "classification": "A",
+        "title": "Star Cycle",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 12th"
+          }
+        ]
+      }
+    ]
+  },
+  "2018": {
+    "shows": [
+      {
+        "year": 2018,
+        "classification": "World",
+        "title": "This Is Me",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Silver Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Bronze Medal"
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "classification": "Open",
+        "title": "Crimson",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Bronze Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 12th"
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "classification": "A",
+        "title": "Alloy",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 6th"
+          }
+        ]
+      }
+    ]
+  },
+  "2019": {
+    "shows": [
+      {
+        "year": 2019,
+        "classification": "World",
+        "title": "One of Us",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Silver Medal"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Silver Medal"
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "classification": "Open",
+        "title": "Line of Sight",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 6th"
+          },
+          {
+            "circuit": "WGI",
+            "placement": "Finalist 10th"
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "classification": "A",
+        "title": "The River",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": [
+          {
+            "circuit": "SCPA",
+            "placement": "Finalist 4th"
+          }
+        ]
+      }
+    ]
+  },
+  "2020": {
+    "shows": [
+      {
+        "year": 2020,
+        "classification": "World",
+        "title": "A Meditation",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": []
+      },
+      {
+        "year": 2020,
+        "classification": "Open",
+        "title": "Warriors Among the Blossoms",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": []
+      }
+    ]
+  },
+  "2021": {
+    "shows": []
+  },
+  "2022": {
+    "shows": [
+      {
+        "year": 2022,
+        "classification": "World",
+        "title": "Missing You Too",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": []
+      },
+      {
+        "year": 2022,
+        "classification": "Open",
+        "title": "Lunaris",
+        "description": "",
+        "performers": [
+          "performer1",
+          "performer2",
+          "performer3",
+          "performer4",
+          "performer5",
+          "performer6",
+          "performer7",
+          "performer8",
+          "performer9",
+          "performer10"
+        ],
+        "staffs": ["Kevin Sherrill"],
+        "accolades": []
+      }
+    ]
+  }
+}

@@ -20,6 +20,16 @@
           <li>
             <a class="nav-list__anchor" href="./timeline.html">Timeline</a>
           </li>
+          <li>
+            <label for="year-select">Choose a year:</label>
+            <select name="years" id="year-select">
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+            </select>
+          </li>
         </ul>
       </nav>
     </header>
@@ -134,5 +144,14 @@
         </section>
       </section>
     </main>
+    <script>
+      // year select change event handler
+      document
+        .querySelector("#year-select")
+        .addEventListener("change", (event) => {
+          const newValue = event.target.value;
+          console.log({ newValue });
+        });
+    </script>
   </body>
 </html>
