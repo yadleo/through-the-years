@@ -23,11 +23,8 @@
           <li>
             <label for="year-select">Choose a year:</label>
             <select name="years" id="year-select">
-              <option value="2022">2022</option>
-              <option value="2021">2021</option>
-              <option value="2020">2020</option>
-              <option value="2019">2019</option>
-              <option value="2018">2018</option>
+              <!-- TODO: remove -->
+              <!-- <option value="2022">2022</option> -->
             </select>
           </li>
         </ul>
@@ -144,6 +141,22 @@
         </section>
       </section>
     </main>
+    <script>
+      fetch("../json/arcadia.json")
+        .then((response) => response.json())
+        .then((data) => {
+          // generate year-select options
+          const years = Object.keys(data);
+
+          for (let i = years.length - 1; i >= 0; i--) {
+            const year = years[i];
+            const optionTag = `<option value="${year}">${year}</option>`;
+            document
+              .querySelector("#year-select")
+              .insertAdjacentHTML("beforeend", optionTag);
+          }
+        });
+    </script>
     <script>
       // year select change event handler
       document
