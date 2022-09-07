@@ -17,9 +17,9 @@
               >Through the Years</a
             >
           </li>
-          <li>
+          <!-- <li>
             <a class="nav-list__anchor" href="./timeline.html">Timeline</a>
-          </li>
+          </li> -->
           <li>
             <label for="year-select">Choose a year:</label>
             <select name="years" id="year-select">
@@ -142,29 +142,40 @@
       </section>
     </main>
     <script>
-      fetch("../json/arcadia.json")
-        .then((response) => response.json())
-        .then((data) => {
-          // generate year-select options
-          const years = Object.keys(data);
+      const yearDropdown = document.querySelector("#year-select");
 
-          for (let i = years.length - 1; i >= 0; i--) {
-            const year = years[i];
-            const optionTag = `<option value="${year}">${year}</option>`;
-            document
-              .querySelector("#year-select")
-              .insertAdjacentHTML("beforeend", optionTag);
-          }
+      function fetchJSON(jsonPath, cb, errorHandler) {
+        fetch(jsonPath)
+          .then((response) => response.json())
+          .then((data) => cb(data))
+          .catch((error) => errorHandler(error));
+      }
+
+      function generateYearDropdown(jsonData) {
+        const years = Object.keys(jsonData);
+
+        for (let i = years.length - 1; i >= 0; i--) {
+          const year = years[i];
+          const optionTag = `<option value="${year}">${year}</option>`;
+          yearDropdown.insertAdjacentHTML("beforeend", optionTag);
+        }
+      }
+
+      fetchJSON("../json/arcadia.json", generateYearDropdown);
+
+      function getYearDetail(year) {
+        return fetchJSON("../json/arcadia.json", (data) => {
+          const yearDetail = data[year];
+          console.log({ yearDetail });
+          return yearDetail;
         });
-    </script>
-    <script>
-      // year select change event handler
-      document
-        .querySelector("#year-select")
-        .addEventListener("change", (event) => {
-          const newValue = event.target.value;
-          console.log({ newValue });
-        });
+      }
+      // year dropdown change event handler
+      yearDropdown.addEventListener("change", (event) => {
+        const selectedYear = event.target.value;
+        console.log({ selectedYear });
+        getYearDetail(selectedYear);
+      });
     </script>
   </body>
 </html>
