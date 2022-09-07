@@ -87,10 +87,8 @@
             Additional Animation: Nick Lai
           </p>
           <section class="instructors">
-            <h3 class="h3 upper-case pad-bottom-10 summary__label">
-              instructors
-            </h3>
-            <ul class="instructors-ul">
+            <span class="upper-case summary__label">instructors</span>
+            <ul class="instructors-ul margin-top-10">
               <li>Kevin Sherrill</li>
               <li>Tony Nunez</li>
               <li>Kevin Shah</li>
@@ -102,8 +100,8 @@
             </ul>
           </section>
           <section class="members">
-            <h3 class="h3 upper-case pad-bottom-10 summary__label">members</h3>
-            <ul class="members-ul">
+            <span class="upper-case summary__label">members</span>
+            <ul class="members-ul margin-top-10">
               <li>Aaron Ho</li>
               <li>AJ Ocampo</li>
               <li>Allison Kuo</li>
@@ -142,6 +140,7 @@
       </section>
     </main>
     <script>
+      const jsonPath = "../json/arcadia.json";
       const yearDropdown = document.querySelector("#year-select");
 
       function fetchJSON(jsonPath, cb, errorHandler) {
@@ -156,15 +155,20 @@
 
         for (let i = years.length - 1; i >= 0; i--) {
           const year = years[i];
-          const optionTag = `<option value="${year}">${year}</option>`;
-          yearDropdown.insertAdjacentHTML("beforeend", optionTag);
+
+          const option = document.createElement("option");
+          option.value = year;
+          option.textContent = year;
+          // TODO: verify approach
+          // const optionTag = `<option value="${year}">${year}</option>`;
+          yearDropdown.insertAdjacentElement("beforeend", option);
         }
       }
 
-      fetchJSON("../json/arcadia.json", generateYearDropdown);
+      fetchJSON(jsonPath, generateYearDropdown);
 
       function getYearDetail(year) {
-        return fetchJSON("../json/arcadia.json", (data) => {
+        return fetchJSON(jsonPath, (data) => {
           const yearDetail = data[year];
           console.log({ yearDetail });
           return yearDetail;
@@ -176,6 +180,47 @@
         console.log({ selectedYear });
         getYearDetail(selectedYear);
       });
+
+      // Temp - Summary section
+      const summarySection = document.createElement("section");
+      summarySection.className = "summary";
+      // Show Title
+      const showTitle = document.createElement("h1");
+      showTitle.classList = ["h1", "show-title"];
+      showTitle.textContent = "";
+      // Summary Label
+      function getSummaryLabel(textContent, classList) {
+        const label = document.createElement("span");
+
+        label.textContent = textContent;
+
+        label.classList = ["upper-case", "pad-right-10", "summary__label"];
+
+        return label;
+      }
+      // Classification
+      const classification = document.createElement("div");
+      classification.className = "classification";
+      const classificationLabel = getSummaryLabel("Class");
+      const classificationValue = `<span><i>${"temp"}</i></span>`;
+
+      // Awards
+      const awards = document.createElement("div");
+      awards.className = "awards";
+      const awardsLabel = getSummaryLabel("Awards");
+      const awardsValue = `<span>SCPA - <i>Bronze</i> | WGI - <i>Finalist 4th</i></span>`;
+      // Description
+      const description = document.createElement("p");
+      description.classList = ["p", "description"];
+      description.textContent = "";
+      // Instructors
+      const instructors = document.createElement("section");
+      instructors.className = "instructors";
+      const instructorsLabel = getSummaryLabel("Instructors");
+      // Members
+      const members = document.createElement("section");
+      members.className = "members";
+      const membersLabel = getSummaryLabel("Members");
     </script>
   </body>
 </html>
