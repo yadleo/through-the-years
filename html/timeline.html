@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <link rel="stylesheet" href="../css/reset.css" type="text/css" />
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
     <title>Through the Years - Timeline</title>
@@ -64,25 +67,33 @@
         <section class="summary">
           <h2 class="h2 show-title">Process of Invention</h2>
           <div class="classification">
-            <span class="upper-case pad-right-10 summary__label">Class</span>
+            <span class="upper-case pad-right-10 summary__label"
+              >Class</span
+            >
             <span><i>World</i></span>
           </div>
           <div class="awards">
-            <span class="upper-case pad-right-10 summary__label">Award</span>
-            <span>SCPA - <i>Bronze</i> | WGI - <i>Finalist 4th</i></span>
+            <span class="upper-case pad-right-10 summary__label"
+              >Award</span
+            >
+            <span
+              >SCPA - <i>Bronze</i> | WGI - <i>Finalist 4th</i></span
+            >
           </div>
           <p class="p description">
-            Music arranged & composed by Kevin Shah, Tony Nuñez and Stephen
-            Ridley*
+            Music arranged & composed by Kevin Shah, Tony Nuñez and
+            Stephen Ridley*
             <br />
             Direction & Program Coordination: Tony Nuñez Video<br />
             Animation: Adam Adorno
             <br />
             Illustration: Maggie Chiang
             <br />
-            Mobile TV design & fabrication: Jeff Doolittle and John Tallon
+            Mobile TV design & fabrication: Jeff Doolittle and John
+            Tallon
             <br />
-            Media logistics: Jeff Doolittle, Tony Nuñez and Adam Adorno
+            Media logistics: Jeff Doolittle, Tony Nuñez and Adam
+            Adorno
             <br />
             Additional Animation: Nick Lai
           </p>
@@ -140,8 +151,8 @@
       </section>
     </main>
     <script>
-      const jsonPath = "../json/arcadia.json";
-      const yearDropdown = document.querySelector("#year-select");
+      const jsonPath = '../json/arcadia.json';
+      const yearDropdown = document.querySelector('#year-select');
 
       function fetchJSON(jsonPath, cb, errorHandler) {
         fetch(jsonPath)
@@ -156,12 +167,12 @@
         for (let i = years.length - 1; i >= 0; i--) {
           const year = years[i];
 
-          const option = document.createElement("option");
+          const option = document.createElement('option');
           option.value = year;
           option.textContent = year;
           // TODO: verify approach
           // const optionTag = `<option value="${year}">${year}</option>`;
-          yearDropdown.insertAdjacentElement("beforeend", option);
+          yearDropdown.insertAdjacentElement('beforeend', option);
         }
       }
 
@@ -175,52 +186,56 @@
         });
       }
       // year dropdown change event handler
-      yearDropdown.addEventListener("change", (event) => {
+      yearDropdown.addEventListener('change', (event) => {
         const selectedYear = event.target.value;
         console.log({ selectedYear });
         getYearDetail(selectedYear);
       });
 
       // Temp - Summary section
-      const summarySection = document.createElement("section");
-      summarySection.className = "summary";
+      const summarySection = document.createElement('section');
+      summarySection.className = 'summary';
       // Show Title
-      const showTitle = document.createElement("h1");
-      showTitle.classList = ["h1", "show-title"];
-      showTitle.textContent = "";
+      const showTitle = document.createElement('h1');
+      showTitle.classList = ['h1', 'show-title'];
+      showTitle.textContent = '';
       // Summary Label
-      function getSummaryLabel(textContent, classList) {
-        const label = document.createElement("span");
+      function createSummaryLabel(textContent, classList) {
+        const label = document.createElement('span');
 
         label.textContent = textContent;
 
-        label.classList = ["upper-case", "pad-right-10", "summary__label"];
+        label.classList = [
+          'upper-case',
+          'pad-right-10',
+          'summary__label',
+        ];
 
         return label;
       }
       // Classification
-      const classification = document.createElement("div");
-      classification.className = "classification";
-      const classificationLabel = getSummaryLabel("Class");
-      const classificationValue = `<span><i>${"temp"}</i></span>`;
+      const classification = document.createElement('div');
+      classification.className = 'classification';
+      const classificationLabel = createSummaryLabel('Class');
+      const classificationValue = `<span><i>${'temp'}</i></span>`;
 
       // Awards
-      const awards = document.createElement("div");
-      awards.className = "awards";
-      const awardsLabel = getSummaryLabel("Awards");
+      const awards = document.createElement('div');
+      awards.className = 'awards';
+      const awardsLabel = createSummaryLabel('Awards');
       const awardsValue = `<span>SCPA - <i>Bronze</i> | WGI - <i>Finalist 4th</i></span>`;
       // Description
-      const description = document.createElement("p");
-      description.classList = ["p", "description"];
-      description.textContent = "";
+      const description = document.createElement('p');
+      description.classList = ['p', 'description'];
+      description.textContent = '';
       // Instructors
-      const instructors = document.createElement("section");
-      instructors.className = "instructors";
-      const instructorsLabel = getSummaryLabel("Instructors");
+      const instructors = document.createElement('section');
+      instructors.className = 'instructors';
+      const instructorsLabel = createSummaryLabel('Instructors');
       // Members
-      const members = document.createElement("section");
-      members.className = "members";
-      const membersLabel = getSummaryLabel("Members");
+      const members = document.createElement('section');
+      members.className = 'members';
+      const membersLabel = createSummaryLabel('Members');
     </script>
   </body>
 </html>
