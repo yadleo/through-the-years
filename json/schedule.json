@@ -1,0 +1,69 @@
+{
+  "2024": {
+    "shows": [
+      {
+        "date": "02/03/2024",
+        "location": "Arcadia HS",
+        "ensembles": ["A", "World"],
+        "circuit": "SCPA",
+        "type": "regular"
+      },
+      {
+        "date": "02/17/2024",
+        "location": "Chino HS",
+        "ensembles": ["A", "World"],
+        "circuit": "SCPA",
+        "type": "regular"
+      },
+      {
+        "date": "03/02/2024",
+        "location": "Monrovia HS",
+        "ensembles": ["World"],
+        "circuit": "SCPA",
+        "type": "regular"
+      },
+      {
+        "date": "03/03/2024",
+        "location": "Monrovia HS",
+        "ensembles": ["A"],
+        "circuit": "SCPA",
+        "type": "regular"
+      },
+      {
+        "date": "03/30/2024",
+        "location": "Coussoulis Arena",
+        "ensembles": ["A"],
+        "circuit": "SCPA",
+        "type": "prelims"
+      },
+      {
+        "date": "04/06/2024",
+        "location": "Coussoulis Arena",
+        "ensembles": ["World"],
+        "circuit": "SCPA",
+        "type": "prelims"
+      },
+      {
+        "date": "04/07/2024",
+        "location": "Coussoulis Arena",
+        "ensembles": ["A"],
+        "circuit": "SCPA",
+        "type": "semifinals"
+      },
+      {
+        "date": "04/13/2024",
+        "location": "Coussoulis Arena",
+        "ensembles": ["A", "World"],
+        "circuit": "SCPA",
+        "type": "championship"
+      },
+      {
+        "date": "04/18-20/2024",
+        "location": "University of Dayton Arena",
+        "ensembles": ["World"],
+        "circuit": "WGI",
+        "type": "championship"
+      }
+    ]
+  }
+}
